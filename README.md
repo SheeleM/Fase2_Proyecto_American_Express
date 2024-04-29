@@ -30,6 +30,8 @@ docker start 489ec5ab41c --> inicializa mi contenedor
 
 docker exec -it 489ec5ab41c /bin/bash --> entrar a los archivos del docker
 
+python predict.py --input_file=data/test_data.csv --predictions_file=data/prediction_file.csv --model_file=modelo_final.pkl
+
 docker ps ---> ver docker creados
 
 docker images --> ver imagenes creadas
